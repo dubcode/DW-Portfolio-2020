@@ -1,0 +1,35 @@
+{
+  "name": "ultr4",
+  "version": "1.0.0",
+  "description": "My prime Nuxt.js project",
+  "author": "Daniel Wakefield",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@luxdamore/vue-cursor-fx": "^1.4.0",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "hooper": "^0.3.4",
+    "nuxt": "^2.0.0",
+    "nuxt-purgecss": "^0.2.1",
+    "nuxt-webfontloader": "^1.1.0",
+    "three": "^0.121.1",
+    "three-obj-loader": "^1.1.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/stylelint-module": "^3.1.0",
+    "@nuxtjs/tailwindcss": "^1.4.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "stylelint": "^10.1.0"
+  }
+}

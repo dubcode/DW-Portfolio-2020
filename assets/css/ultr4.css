@@ -1,0 +1,224 @@
+/* ////////////////////////////////////////////////
+##################### ULTR4-CSS ##################
+////////////////////////////////////////////// */
+
+/* RESET */
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  div {
+    display: block;
+  }
+  a:focus,
+  button:focus,
+  input:focus,
+  textarea:focus,
+  :focus {
+    outline: none;
+  }
+  pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+  img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol,
+  p {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+  p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 0 0 1em 0;
+  }
+  p b {
+    font-weight: 600;
+  }
+  table {
+    border-collapse: collapse;
+    display: table;
+    text-align: left;
+    width: auto;
+  }
+  tr {
+    width: 100%;
+  }
+  tr td {
+    border-left: 1px solid #888888;
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+    display: table-cell;
+    padding: 1em;
+  }
+  tr td:last-child {
+    border-right: 1px solid #888888;
+  }
+  
+  /* BLOCKS */
+  .row {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+  .ctr {
+    display: block;
+    margin: 0 auto;
+    padding: 0 2em;
+    width: 100%;
+  }
+  .row::after,
+  .ctr::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .block {
+    display: block;
+  }
+  .inline {
+    display: inline-block;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  /* FLEX */
+  .flex {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex-l {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .flex-r {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .flex-br {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .flex-stretch {
+    align-items: stretch;
+  }
+  .flex-row {
+    flex-direction: column;
+  }
+  .flex-col {
+    flex-direction: row;
+  }
+  .flex-norm {
+    flex-direction: initial;
+  }
+  
+  /* FLOAT */
+  .left {
+    display: block;
+    float: left;
+  }
+  .right {
+    display: block;
+    float: right;
+  }
+  .center {
+    margin: 0 auto;
+  }
+  
+  /* FILL */
+  .fill {
+    height: 100%;
+    width: 100%;
+  }
+  .fill-y {
+    height: 100%;
+  }
+  .fill-x {
+    width: 100%;
+  }
+  .fill-vh {
+    height: 100vh;
+  }
+  .fill-vw {
+    width: 100vw;
+  }
+  .fill-mvh {
+    min-height: 100vh;
+  }
+  .fill-mvw {
+    min-width: 100vw;
+  }
+  @media only screen and (min-width: 1240px) {
+    .ctr {
+      padding: 0 4em;
+    }
+  }
+  @media only screen and (min-width: 1440px) {
+    .ctr {
+      padding: 0 6em;
+    }
+  }
+  @media only screen and (min-width: 1760px) {
+    .ctr {
+      padding: 0 8em;
+    }
+  }
+  
+  /* ////////////////////////////////////////////////
+  ##################### ULTR4-CSS ##################
+  ////////////////////////////////////////////// */
+
+  :root {
+    --black: rgba(0,0,0,0.9);
+    --grey: #666;
+    --white: rgba(255,255,255, 0.9);
+    --primary: #2100b0;
+    --blue: #2100b0;
+  }
+
+  @font-face {
+    font-family: 'Anurati';
+    src: url("Anurati-Regular.otf") format("opentype");
+}

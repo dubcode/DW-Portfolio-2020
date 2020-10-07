@@ -1,0 +1,19 @@
+<svg
+	class="block float-left h-auto w-full"
+	x="0px"
+	y="0px"
+	viewBox="0 0 400 400"
+	style="enable-background:new 0 0 400 400;"
+	xml:space="preserve"
+	>
+	<g>
+		<defs>
+		<text id="initials__path-1" class="text-7xl font-extrabold text-center;" transform="matrix(1 0 0 1 72.281 267.2783)">UX</text>
+		</defs>
+		<clipPath id="initials__path-2">
+		<use xlink:href="#initials__path-1"  style="overflow:visible;"/>
+		</clipPath>
+		<image style="overflow:visible;clip-path:url(#initials__path-2);" width="400" height="400" xlink:href="https://media.giphy.com/media/l4Ep3mmmj7Bw3adWw/giphy.gif" >
+		</image>
+	</g>
+</svg>
